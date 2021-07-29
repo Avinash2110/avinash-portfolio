@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
+
+
+.About-container{
+    display: flex;
+    flex-basis: 75%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-heading{
+    margin-top: 25px;
+    font-family: 'Mada', sans-serif;
+    text-decoration: underline;
+}
+
+.about-para{
+    margin-top: 35px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Mada', sans-serif;
+}
+
+.resume{
+    margin-top: 50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 2px solid #1f1f1f;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #1f1f1f;
+    font-weight: bold;
+    font-family: 'Mada', sans-serif;
+    text-decoration: none;
+}
+
+.resume:hover{
+    background: transparent;
+}
+
+@media screen and (min-width: 801px){
+    .random-image{
+        margin-top: 60px;
+        width: 80%;
+        height: 150px;
+        background: url("../images/businessmen-42691_1280.png");
+        background-size: cover;
+    }
+}

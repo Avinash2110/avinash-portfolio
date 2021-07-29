@@ -1,24 +1,42 @@
-import logo from './logo.svg';
+import React, {useContext} from "react";
 import './App.css';
+import Navigation from "./components/Navigation";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+import {PageContext} from "./PageContext";
 
 function App() {
+
+  const [pages, setPages] = useContext(PageContext);
+
+  const renderPage = () =>{
+    if(pages.about){
+      return <About/>
+    }
+    if(pages.skills){
+      return <Skills/>
+    }
+    if(pages.projects){
+      return <Project/>
+    }
+    if(pages.contact){
+      return <Contact/>
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <div className="container">
+          <Navigation/>
+          {renderPage()}
+        </div>
+      </div>
+      <div className="circle1"></div>
+      <div className="circle2"></div>
+    </>
   );
 }
 

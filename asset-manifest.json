@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/avinash-portfolio/static/css/main.2cede9e7.chunk.css",
+    "main.js": "/avinash-portfolio/static/js/main.fb67d5ef.chunk.js",
+    "main.js.map": "/avinash-portfolio/static/js/main.fb67d5ef.chunk.js.map",
+    "runtime-main.js": "/avinash-portfolio/static/js/runtime-main.651271e2.js",
+    "runtime-main.js.map": "/avinash-portfolio/static/js/runtime-main.651271e2.js.map",
+    "static/css/2.3ca2e7a5.chunk.css": "/avinash-portfolio/static/css/2.3ca2e7a5.chunk.css",
+    "static/js/2.87fb69ae.chunk.js": "/avinash-portfolio/static/js/2.87fb69ae.chunk.js",
+    "static/js/2.87fb69ae.chunk.js.map": "/avinash-portfolio/static/js/2.87fb69ae.chunk.js.map",
+    "index.html": "/avinash-portfolio/index.html",
+    "static/css/2.3ca2e7a5.chunk.css.map": "/avinash-portfolio/static/css/2.3ca2e7a5.chunk.css.map",
+    "static/css/main.2cede9e7.chunk.css.map": "/avinash-portfolio/static/css/main.2cede9e7.chunk.css.map",
+    "static/js/2.87fb69ae.chunk.js.LICENSE.txt": "/avinash-portfolio/static/js/2.87fb69ae.chunk.js.LICENSE.txt",
+    "static/media/Contact.css": "/avinash-portfolio/static/media/approved-151676_1280.dced9902.png",
+    "static/media/Navigation.css": "/avinash-portfolio/static/media/avinash_img.d4ee406f.jpeg",
+    "static/media/About.css": "/avinash-portfolio/static/media/businessmen-42691_1280.e54c2fa0.png",
+    "static/media/Project.css": "/avinash-portfolio/static/media/proj1.777b3c95.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.651271e2.js",
+    "static/css/2.3ca2e7a5.chunk.css",
+    "static/js/2.87fb69ae.chunk.js",
+    "static/css/main.2cede9e7.chunk.css",
+    "static/js/main.fb67d5ef.chunk.js"
+  ]
+}

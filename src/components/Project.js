@@ -12,7 +12,7 @@ const Project = () => {
                 <a href="https://avinash2110.github.io/covid-tracker/" className="project-card back2">
                     <h3 className="project-text">Covid-Tracker</h3>
                 </a>
-                <a href="*" className="project-card back3">
+                <a href="#" className="project-card back3">
                     <h3 className="project-text">Portfolio</h3>
                 </a>
             </div>

@@ -8,7 +8,7 @@ const About = () => {
             <p className="about-para">
                 I have a Strong background with demonstrated history of working in the Information technology and services industry. Skilled in MERN(Mongo, Express, React, Node) tech stack and programming languages like Java and Javascript.
             </p>
-            <a href="/Avinash_Resume.pdf" target="_blank" download className="resume">Download Resume</a>
+            <a href={process.env.PUBLIC_URL+`/Avinash_Resume.pdf`}  download className="resume">Download Resume</a>
             <div className="random-image"></div>
         </div>
     )
